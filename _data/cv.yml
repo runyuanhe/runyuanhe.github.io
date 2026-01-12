@@ -1,0 +1,102 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Runyuan He
+    - name: Email
+      value: runyuanhe@link.cuhk.edu.cn
+    - name: GitHub
+      value: <a href="https://github.com/momoway">momoway</a>
+
+- title: Education
+  type: time_table
+  contents:
+    - title: B.E. in Computer Science and Engineering
+      institution: The Chinese University of Hong Kong, Shenzhen
+      year: 2023 - 2027
+      description:
+        - "GPA: 3.912 / 4.0 (major), 3.8 / 4.0 (cumulative)"
+        - "Advisors: Prof. Yehching Chung (academic) and Prof. Yixiang Fang (research)"
+        - "Research areas: Database and LLMs"
+    - title: Visiting Student - Berkeley Global Access Program
+      institution: University of California, Berkeley
+      year: Aug 2025 - Dec 2025
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: University of California, Berkeley
+      year: June 2025 - Present
+      description:
+        - "Advisor: Prof. Alvin Cheung"
+        - "Research areas: Database, Programming Languages, and LLMs"
+        - Contribute to the project of LLM-driven Database Validation via Verifiable Test Cases Synthesis.
+        - Collaborate with Prof. Huanchen Zhang (Tsinghua), Dr. Xiaoxuan Liu (OpenAI), and Qiuyang Mang (UC Berkeley).
+    - title: Research Assistant
+      institution: The Chinese University of Hong Kong, Shenzhen
+      year: July 2025 - Present
+      description:
+        - "Advisor: Prof. Yixiang Fang"
+        - "Research areas: Graph, LLM Memories, LLM Agents"
+        - Contribute to the project of Agent-memory - Tracing Hierarchical Memory for Multi-Agent Systems.
+    - title: Algorithm Engineer Intern
+      institution: Huawei Cloud Computing
+      year: July 2024 - Sep 2024
+      description:
+        - "Mentor: Yuzhe Yang"
+        - "Department: Block Storage Domain"
+        - Built a Dockerized cluster for departmental services.
+        - Developed a high-concurrency read-write testing and validation tool.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - 24th Place - The 48th ICPC World Final
+        - 8th Place - The 48th ICPC World Final Huawei Challenge
+        - Gold Medalist - The 49th ICPC Kunming Regional
+        - Silver Medalist - The 49th ICPC Shanghai Regional
+        - Dean's List - School of Data Science, CUHK-Shenzhen
+    - year: 2023
+      items:
+        - 3rd Place - The 48th ICPC Macau Regional
+        - Gold Medalist - The 48th ICPC Jinan Regional
+        - Silver Medalist - The 48th ICPC Asia-East Continent Finals
+        - Subject Specialty Scholarship (~20,000 CNY) - CUHK-Shenzhen
+    - year: 2021
+      items:
+        - Silver Medalist - The 38th National Olympiad in Informatics (NOI)
+
+- title: Teaching and Service
+  type: time_table
+  contents:
+    - title: Coach - CUHK-Shenzhen Programming Contest Team
+      year: 2024 - Present
+      description:
+        - Organized and designed problems for the 2025 GBA International Programming Contest.
+        - Problem Setter for 2025 SDS & SSE Informatics Olympiad Summer Camp.
+        - Taught Olympiad Informatics at CUHK-Shenzhen Affiliated School.
+    - title: Teaching Assistant
+      institution: The Chinese University of Hong Kong, Shenzhen
+      year: AY2023/2024
+      description:
+        - "CSC1003: Introduction to Computer Science and Java Programming"
+        - "CSC3100: Data Structure (review lectures)"
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Database Systems
+      items:
+        - LLM-based database testing and validation
+        - Query optimization
+    - title: Large Language Models
+      items:
+        - LLM Agents and Memory
+        - Code generation and verification
+    - title: Software Engineering
+      items:
+        - Program synthesis
+        - Automated testing
