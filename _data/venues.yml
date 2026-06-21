@@ -1,9 +1,7 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"SIGMOD'26":
+  url: https://2026.sigmod.org/
+  color: "#d99e30"
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"arXiv":
+  url: https://arxiv.org/
+  color: "#846262"

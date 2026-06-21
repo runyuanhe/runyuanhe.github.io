@@ -6,29 +6,29 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
+  --global-bg-color: #{$pkmn-bg-light};
+  --global-code-bg-color: #{rgba($pkmn-primary-dark, 0.08)};
+  --global-text-color: #{$pkmn-fg-light};
+  --global-text-color-light: #{$pkmn-muted-fg-light};
+  --global-theme-color: #{$pkmn-primary-dark};
+  --global-hover-color: #{$pkmn-primary};
+  --global-hover-text-color: #{$pkmn-fg-light};
+  --global-footer-bg-color: #{$pkmn-fg-light};
+  --global-footer-text-color: #{$pkmn-accent};
+  --global-footer-link-color: #{$pkmn-primary};
+  --global-distill-app-color: #{$pkmn-muted-fg-light};
+  --global-divider-color: #{$pkmn-border-light};
+  --global-card-bg-color: #{$pkmn-card-light};
+  --global-highlight-color: #{$pkmn-primary-dark};
   --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
+    #{color.channel($pkmn-primary-dark, "red", $space: rgb)},
+    #{color.channel($pkmn-primary-dark, "green", $space: rgb)},
+    #{color.channel($pkmn-primary-dark, "blue", $space: rgb)},
+    0.85
   );
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+  --global-back-to-top-text-color: #{$pkmn-fg-light};
+  --global-newsletter-bg-color: #{$pkmn-card-light};
+  --global-newsletter-text-color: #{$pkmn-fg-light};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -78,28 +78,28 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-bg-color: #{$pkmn-bg-dark};
+  --global-code-bg-color: #{rgba($pkmn-primary, 0.1)};
+  --global-text-color: #{$pkmn-fg-dark};
+  --global-text-color-light: #{$pkmn-muted-fg-dark};
+  --global-theme-color: #{$pkmn-primary};
+  --global-hover-color: #{$pkmn-accent};
+  --global-hover-text-color: #{$pkmn-bg-dark};
+  --global-footer-bg-color: #{$pkmn-card-dark};
+  --global-footer-text-color: #{$pkmn-muted-fg-dark};
+  --global-footer-link-color: #{$pkmn-primary};
+  --global-distill-app-color: #{$pkmn-muted-fg-dark};
+  --global-divider-color: #{$pkmn-border-dark};
+  --global-card-bg-color: #{$pkmn-card-dark};
   --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
+    #{color.channel($pkmn-primary, "red", $space: rgb)},
+    #{color.channel($pkmn-primary, "green", $space: rgb)},
+    #{color.channel($pkmn-primary, "blue", $space: rgb)},
+    0.9
   );
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
+  --global-back-to-top-text-color: #{$pkmn-bg-dark};
+  --global-newsletter-bg-color: #{$pkmn-card-dark};
+  --global-newsletter-text-color: #{$pkmn-fg-dark};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #215d42;
