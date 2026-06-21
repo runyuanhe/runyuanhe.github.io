@@ -43,7 +43,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%72%75%6E%79%75%61%6E%68%65@%6C%69%6E%6B.%63%75%68%6B.%65%64%75.%63%6E", "_blank");
+          window.open("mailto:%72%75%6E%79%75%61%6E@%62%65%72%6B%65%6C%65%79.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=ZOaOjkMAAAAJ", "_blank");
         },
       },{
         id: 'social-github',
@@ -51,6 +58,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/momoway", "_blank");
+        },
+      },{
+        id: 'social-dblp',
+        title: 'DBLP',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dblp.org/pid/401/7590.html", "_blank");
+        },
+      },{
+        id: 'social-huggingface',
+        title: 'Huggingface',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://huggingface.co/runyuanhe", "_blank");
         },
       },{
       id: 'light-theme',
