@@ -2,6 +2,14 @@
   url: https://2026.sigmod.org/
   color: "#d99e30"
 
+"ICML'26":
+  url: https://icml.cc/Conferences/2026
+  color: "#d99e30"
+
+"VLDB'25":
+  url: https://vldb.org/2025/
+  color: "#d99e30"
+
 "arXiv":
   url: https://arxiv.org/
   color: "#846262"
