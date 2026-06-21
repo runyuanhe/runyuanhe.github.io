@@ -1,10 +1,11 @@
 # Social media links and usernames
 # The socials will be displayed in the order they are defined here
 
-email: runyuanhe@link.cuhk.edu.cn
+email: runyuan@berkeley.edu
+scholar_userid: ZOaOjkMAAAAJ
 github_username: momoway
-# linkedin_username: # your LinkedIn username
-# orcid_id: # your ORCID ID
-# scholar_userid: # your Google Scholar ID
-
-# rss_icon: true  # disabled RSS feed icon
+dblp_url: https://dblp.org/pid/401/7590.html
+huggingface:
+  url: https://huggingface.co/runyuanhe
+  title: Hugging Face
+  logo: assets/img/huggingface_logo.svg

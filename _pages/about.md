@@ -9,8 +9,8 @@ profile:
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>runyuanhe@link.cuhk.edu.cn</p>
-    <p>GitHub: <a href="https://github.com/momoway">momoway</a></p>
+    <p>Soda Hall, UC Berkeley</p>
+    <p>Berkeley, CA 94720</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,6 +29,8 @@ latest_posts:
 I am a junior undergraduate in Computer Science at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), currently a summer visiting research assistant at [UC Berkeley](https://berkeley.edu/).
 
 My research focuses on **LLM-based database testing systems** under the supervision of [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/). I am actively seeking **Ph.D. opportunities in database systems and software engineering**.
+
+Open-source models from my recent work are available on [Hugging Face](https://huggingface.co/runyuanhe), and code/preprints are on [GitHub](https://github.com/momoway), [Google Scholar](https://scholar.google.com/citations?user=ZOaOjkMAAAAJ), and [DBLP](https://dblp.org/pid/401/7590.html).
 
 ## Research Interests
 
