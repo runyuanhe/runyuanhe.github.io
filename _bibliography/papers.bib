@@ -10,6 +10,7 @@
   journal={arXiv preprint arXiv:2510.06663},
   year={2025},
   selected={true},
+  preview={argus.png},
   bibtex_show={true},
   abstract={This paper explores the use of large language models (LLMs) to automate the discovery and instantiation of test oracles, addressing a long-standing bottleneck towards fully automated DBMS testing. We introduce Argus, a novel framework built upon the core concept of the Constrained Abstract Query. Argus uses LLMs to generate pairs of SQL skeletons that are asserted to be semantically equivalent, then formally proven using a SQL equivalence solver to ensure soundness.},
   arxiv={2510.06663}
@@ -22,6 +23,7 @@
   journal={arXiv preprint arXiv:2511.02230},
   year={2025},
   selected={true},
+  preview={continuum.png},
   bibtex_show={true},
   abstract={We present Continuum, a serving system to optimize job completion time for multi-turn agent workloads by introducing time-to-live mechanism for KV cache retaining. For LLM request that generates a tool call, Continuum selectively pins the KV cache in GPU memory with a time-to-live value determined by considering both the reload cost and ordering preserve benefit of retaining KV cache.},
   arxiv={2511.02230}
@@ -35,6 +37,7 @@
   author={Mang, Qiuyang and Chai, Wenhao and Li, Zhifei and Mao, Huanzhi and Zhou, Shang and Du, Alexander and Li, Hanchen and Liu, Shu and Chen, Edwin and Wang, Yichuan and Chu, Xieting and Cheng, Zerui and Xu, Yuan and Xia, Tian and Wang, Zirui and Shi, Tianneng and Yao, Jianzhu and Zhao, Yilong and Zhang, Qizheng and Ruan, Charlie and Shen, Zeyu and Liu, Kaiyuan and He*, Runyuan and others},
   journal={arXiv preprint arXiv:2512.15699},
   year={2025},
+  preview={frontiercs.png},
   bibtex_show={true},
   abstract={We introduce FrontierCS, a challenging benchmark to test the CS research knowledge of frontier LLMs. FrontierCS includes 1,092 problems hand-written by domain experts, with 71.2% contributed by Turing Award and Best Paper Award winners.},
   arxiv={2512.15699}
@@ -46,7 +49,57 @@
   author={Zhou, Yingli and Su, Yaodong and Sun, Youran and Wang, Shu and Wang, Taotao and He*, Runyuan and Zhang, Yongwei and Liang, Sicong and Liu, Xilin and Ma, Yuchi and Fang, Yixiang},
   journal={arXiv preprint arXiv:2503.04338},
   year={2025},
+  preview={graphrag.png},
   bibtex_show={true},
   abstract={This paper presents a comprehensive analysis of Graph-based Retrieval-Augmented Generation (RAG) systems within a unified framework.},
   arxiv={2503.04338}
+}
+
+@article{li2026combee,
+  abbr={arXiv},
+  title={Combee: Scaling Prompt Learning for Self-Improving Language Model Agents},
+  author={Li, Hanchen and He*, Runyuan and Zhang, Qizheng and Ji, Changxiu and Mang, Qiuyang and Chen, Xiaokun and Agrawal, Lakshya A and Liao, Wei-Liang and Yang, Eric and Cheung, Alvin and Zou, James and Olukotun, Kunle and Stoica, Ion and Gonzalez, Joseph E},
+  journal={arXiv preprint arXiv:2604.04247},
+  year={2026},
+  preview={combee.png},
+  bibtex_show={true},
+  abstract={We present Combee, a framework for scaling prompt learning for self-improving language model agents. Existing prompt learning methods struggle in parallel settings, experiencing quality degradation when learning from multiple agent executions simultaneously. Combee leverages parallel scans and an augmented shuffle mechanism along with dynamic batch size control to maintain quality while processing many agents concurrently, achieving up to 17x speedup over previous methods with comparable or better accuracy.},
+  arxiv={2604.04247}
+}
+
+@article{he2026frontiersmith,
+  abbr={arXiv},
+  title={FrontierSmith: Synthesizing Open-Ended Coding Problems at Scale},
+  author={He*, Runyuan and Mang, Qiuyang and Zhou, Shang and Liu, Kaiyuan and Li, Hanchen and Mao, Huanzhi and Zhang, Qizheng and Li, Zerui and Peng, Bo and Cheng, Lufeng and Fu, Tianfu and Wang, Yichuan and Chai, Wenhao and Shang, Jingbo and Dimakis, Alex and Gonzalez, Joseph E and Cheung, Alvin},
+  journal={arXiv preprint arXiv:2605.14445},
+  year={2026},
+  selected={true},
+  preview={frontiersmith.png},
+  bibtex_show={true},
+  abstract={Open-ended coding remains a weak spot for LLMs, largely because open-ended training problems are scarce. FrontierSmith is an automated system that synthesizes such problems by evolving competitive programming tasks through modifying goals, restricting outputs, and generalizing inputs. The system employs a quantitative idea divergence metric to select problems that elicit genuinely diverse approaches, and generates corresponding test cases and verifiers. Models trained on FrontierSmith data show significant improvements on FrontierCS and ALE-bench benchmarks.},
+  arxiv={2605.14445}
+}
+
+@article{fang2026playing,
+  abbr={arXiv},
+  title={Playing Psychic: Using Thought Trees to Predict Reasoning Models Accuracy on Coding Tasks},
+  author={Fang, Jiaxin and He*, Runyuan and Bhatia, Sahil and Gajare, Neel and Cheung, Alvin},
+  journal={arXiv preprint arXiv:2604.16931},
+  year={2026},
+  preview={playing_psychic.png},
+  bibtex_show={true},
+  abstract={We investigate how the structure of a reasoning trace, not just its contents, is a strong predictor of correctness in reasoning models on coding tasks. We propose using structured thought-trees to represent reasoning processes and train a lightweight classifier to identify trace correctness. By flagging and retrying structurally anomalous traces, we demonstrate consistent performance improvements across coding benchmarks.},
+  arxiv={2604.16931}
+}
+
+@article{mang2026plop,
+  abbr={arXiv},
+  title={PLOP: Cost-Based Placement of Semantic Operators in Hybrid Query Plans},
+  author={Mang, Qiuyang and Xiang, Yufan and Zhou, Hangrui and He*, Runyuan and Yu, Jiaxiang and Li, Hanchen and Parameswaran, Aditya and Cheung, Alvin},
+  journal={arXiv preprint arXiv:2604.09944},
+  year={2026},
+  preview={plop.png},
+  bibtex_show={true},
+  abstract={We present PLOP, an optimizer for hybrid database query plans that combine semantic operators powered by LLMs with traditional relational operators. The core challenge is determining where to place each semantic operator relative to relational operators: earlier placement reduces downstream data volume but increases LLM calls, while later placement minimizes LLM invocations but increases relational processing costs. PLOP employs dynamic programming to find optimal placements, achieving up to 1.5x speedup and 4.29x cost reduction while maintaining high output quality.},
+  arxiv={2604.09944}
 }

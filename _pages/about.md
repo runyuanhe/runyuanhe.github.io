@@ -26,7 +26,7 @@ latest_posts:
   limit: 3
 ---
 
-I am a junior undergraduate in Computer Science at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), currently a visiting student at [UC Berkeley](https://berkeley.edu/) through the Berkeley Global Access Program.
+I am a junior undergraduate in Computer Science at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), currently a summer visiting research assistant at [UC Berkeley](https://berkeley.edu/).
 
 My research focuses on **LLM-based database testing systems** under the supervision of [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/). I am actively seeking **Ph.D. opportunities in database systems and software engineering**.
 
