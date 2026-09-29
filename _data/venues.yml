@@ -10,6 +10,9 @@
   url: https://vldb.org/2025/
   color: "#d99e30"
 
+"NeurIPS'26":
+  color: "#d99e30"
+
 "arXiv":
   url: https://arxiv.org/
   color: "#846262"
