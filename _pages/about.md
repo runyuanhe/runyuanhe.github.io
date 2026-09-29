@@ -30,7 +30,7 @@ I am a senior undergraduate researcher in Computer Science at the [UC Berkeley S
 
 My research spans LLM agents, machine learning systems, and databases. I develop methods for generating coding tasks and improving agents, alongside systems that make LLM workloads more efficient and database testing more reliable.
 
-Recent work includes [FrontierSmith](https://arxiv.org/abs/2605.14445), accepted as a NeurIPS 2026 Spotlight (0.95%), [Combee](https://arxiv.org/abs/2604.04247) for scaling prompt learning, and [Continuum](https://arxiv.org/abs/2511.02230) for multi-turn agent scheduling. I also work on LLM-based database testing with [Argus](https://arxiv.org/abs/2510.06663) (SIGMOD 2026).
+Recent work includes [FrontierSmith](https://arxiv.org/abs/2605.14445), accepted as a NeurIPS 2026 Spotlight (0.95%), [Combee](https://arxiv.org/abs/2604.04247) for scaling prompt learning, and [Continuum](https://arxiv.org/abs/2511.02230) for multi-turn agent scheduling.
 
 Open-source models from my recent work are available on [Hugging Face](https://huggingface.co/runyuanhe), and code/preprints are on [GitHub](https://github.com/momoway), [Google Scholar](https://scholar.google.com/citations?user=ZOaOjkMAAAAJ), and [DBLP](https://dblp.org/pid/401/7590.html).
 
