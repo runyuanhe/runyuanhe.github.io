@@ -26,16 +26,21 @@ latest_posts:
   limit: 3
 ---
 
-I am a junior undergraduate in Computer Science at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), currently a summer visiting research assistant at [UC Berkeley](https://berkeley.edu/).
+My background is in Computer Science at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en). I have been working on research with [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/) at [UC Berkeley](https://berkeley.edu/).
 
-My research focuses on **LLM-based database testing systems** under the supervision of [Prof. Alvin Cheung](https://people.eecs.berkeley.edu/~akcheung/). I am actively seeking **Ph.D. opportunities in database systems and software engineering**.
+My research spans **LLM agents, machine learning systems, and databases**. I develop methods for generating coding tasks and improving agents, alongside systems that make LLM workloads more efficient and database testing more reliable.
+
+Recent work includes [FrontierSmith](https://arxiv.org/abs/2605.14445), accepted as a **NeurIPS 2026 Spotlight (0.95%)**, [Combee](https://arxiv.org/abs/2604.04247) for scaling prompt learning, and [Continuum](https://arxiv.org/abs/2511.02230) for multi-turn agent scheduling. I also work on LLM-based database testing with [Argus](https://arxiv.org/abs/2510.06663) (**SIGMOD 2026**).
+
+I am actively seeking **Ph.D. opportunities in database systems and software engineering**.
 
 Open-source models from my recent work are available on [Hugging Face](https://huggingface.co/runyuanhe), and code/preprints are on [GitHub](https://github.com/momoway), [Google Scholar](https://scholar.google.com/citations?user=ZOaOjkMAAAAJ), and [DBLP](https://dblp.org/pid/401/7590.html).
 
 ## Research Interests
 
-- Database Systems
-- Large Language Models (LLMs)
+- **LLM agents:** open-ended coding, training data synthesis, and self-improvement.
+- **Machine learning systems:** efficient inference and scheduling for multi-turn agents.
+- **Database systems:** automated testing and query optimization with LLMs.
 
 ## Selected Achievements
 
