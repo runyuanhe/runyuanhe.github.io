@@ -1,7 +1,57 @@
 ---
 ---
 
-% ====== Selected Papers (shown on About page) ======
+% ====== Selected Papers (shown on About page, in display order) ======
+
+@inproceedings{he2026frontiersmith,
+  display_venue={NeurIPS 2026},
+  summary={A system that synthesizes open-ended coding problems, test cases, and verifiers for training and evaluating language models.},
+  abbr={NeurIPS'26},
+  title={FrontierSmith: Synthesizing Open-Ended Coding Problems at Scale},
+  author={He*, Runyuan and Mang*, Qiuyang and Zhou, Shang and Liu, Kaiyuan and Li, Hanchen and Mao, Huanzhi and Zhang, Qizheng and Li, Zerui and Peng, Bo and Cheng, Lufeng and Fu, Tianfu and Wang, Yichuan and Chai, Wenhao and Shang, Jingbo and Dimakis, Alex and Gonzalez, Joseph E and Cheung, Alvin},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2026},
+  selected={true},
+  preview={frontiersmith.png},
+  bibtex_show={true},
+  award={Accepted as a Spotlight at NeurIPS 2026 (0.95%).},
+  award_name={Spotlight (0.95%)},
+  annotation={* Equal contribution},
+  abstract={Open-ended coding remains a weak spot for LLMs, largely because open-ended training problems are scarce. FrontierSmith is an automated system that synthesizes such problems by evolving competitive programming tasks through modifying goals, restricting outputs, and generalizing inputs. The system employs a quantitative idea divergence metric to select problems that elicit genuinely diverse approaches, and generates corresponding test cases and verifiers. Models trained on FrontierSmith data show significant improvements on FrontierCS and ALE-bench benchmarks.},
+  arxiv={2605.14445}
+}
+
+@article{li2026combee,
+  display_venue={Preprint 2026},
+  summary={A framework for parallel prompt learning that helps language model agents improve from their executions.},
+  abbr={arXiv},
+  title={Combee: Scaling Prompt Learning for Self-Improving Language Model Agents},
+  author={Li*, Hanchen and He*, Runyuan and Zhang, Qizheng and Ji, Changxiu and Mang, Qiuyang and Chen, Xiaokun and Agrawal, Lakshya A and Liao, Wei-Liang and Yang, Eric and Cheung, Alvin and Zou, James and Olukotun, Kunle and Stoica, Ion and Gonzalez, Joseph E},
+  journal={arXiv preprint arXiv:2604.04247},
+  year={2026},
+  selected={true},
+  preview={combee.png},
+  bibtex_show={true},
+  annotation={* Equal contribution},
+  abstract={We present Combee, a framework for scaling prompt learning for self-improving language model agents. Existing prompt learning methods struggle in parallel settings, experiencing quality degradation when learning from multiple agent executions simultaneously. Combee leverages parallel scans and an augmented shuffle mechanism along with dynamic batch size control to maintain quality while processing many agents concurrently, achieving up to 17x speedup over previous methods with comparable or better accuracy.},
+  arxiv={2604.04247}
+}
+
+@article{li2025continuum,
+  display_venue={ICLR 2026 LLA Workshop},
+  summary={A serving system that schedules multi-turn LLM agents using time-to-live policies for KV caches.},
+  abbr={arXiv},
+  title={Continuum: Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live},
+  author={Li*, Hanchen and He*, Runyuan and Mang, Qiuyang and Zhang, Qizheng and Mao, Huanzhi and Chen, Xiaokun and Zhou, Hangrui and Cheung, Alvin and Gonzalez, Joseph and Stoica, Ion},
+  journal={arXiv preprint arXiv:2511.02230},
+  year={2025},
+  selected={true},
+  preview={continuum.png},
+  bibtex_show={true},
+  annotation={* Equal contribution},
+  abstract={We present Continuum, a serving system to optimize job completion time for multi-turn agent workloads by introducing time-to-live mechanism for KV cache retaining. For LLM request that generates a tool call, Continuum selectively pins the KV cache in GPU memory with a time-to-live value determined by considering both the reload cost and ordering preserve benefit of retaining KV cache.},
+  arxiv={2511.02230}
+}
 
 @article{mang2025argus,
   display_venue={SIGMOD 2026},
@@ -20,22 +70,6 @@
   abstract={This paper explores the use of large language models (LLMs) to automate the discovery and instantiation of test oracles, addressing a long-standing bottleneck towards fully automated DBMS testing. We introduce Argus, a novel framework built upon the core concept of the Constrained Abstract Query. Argus uses LLMs to generate pairs of SQL skeletons that are asserted to be semantically equivalent, then formally proven using a SQL equivalence solver to ensure soundness.},
   doi={10.1145/3802017},
   arxiv={2510.06663}
-}
-
-@article{li2025continuum,
-  display_venue={ICLR 2026 LLA Workshop},
-  summary={A serving system that schedules multi-turn LLM agents using time-to-live policies for KV caches.},
-  abbr={arXiv},
-  title={Continuum: Efficient and Robust Multi-Turn LLM Agent Scheduling with KV Cache Time-to-Live},
-  author={Li*, Hanchen and He*, Runyuan and Mang, Qiuyang and Zhang, Qizheng and Mao, Huanzhi and Chen, Xiaokun and Zhou, Hangrui and Cheung, Alvin and Gonzalez, Joseph and Stoica, Ion},
-  journal={arXiv preprint arXiv:2511.02230},
-  year={2025},
-  selected={true},
-  preview={continuum.png},
-  bibtex_show={true},
-  annotation={* Equal contribution},
-  abstract={We present Continuum, a serving system to optimize job completion time for multi-turn agent workloads by introducing time-to-live mechanism for KV cache retaining. For LLM request that generates a tool call, Continuum selectively pins the KV cache in GPU memory with a time-to-live value determined by considering both the reload cost and ordering preserve benefit of retaining KV cache.},
-  arxiv={2511.02230}
 }
 
 % ====== Other Publications ======
@@ -70,39 +104,6 @@
   abstract={This paper presents a comprehensive analysis of Graph-based Retrieval-Augmented Generation (RAG) systems within a unified framework.},
   doi={10.14778/3773731.3773738},
   arxiv={2503.04338}
-}
-
-@article{li2026combee,
-  display_venue={Preprint 2026},
-  summary={A framework for parallel prompt learning that helps language model agents improve from their executions.},
-  abbr={arXiv},
-  title={Combee: Scaling Prompt Learning for Self-Improving Language Model Agents},
-  author={Li*, Hanchen and He*, Runyuan and Zhang, Qizheng and Ji, Changxiu and Mang, Qiuyang and Chen, Xiaokun and Agrawal, Lakshya A and Liao, Wei-Liang and Yang, Eric and Cheung, Alvin and Zou, James and Olukotun, Kunle and Stoica, Ion and Gonzalez, Joseph E},
-  journal={arXiv preprint arXiv:2604.04247},
-  year={2026},
-  preview={combee.png},
-  bibtex_show={true},
-  annotation={* Equal contribution},
-  abstract={We present Combee, a framework for scaling prompt learning for self-improving language model agents. Existing prompt learning methods struggle in parallel settings, experiencing quality degradation when learning from multiple agent executions simultaneously. Combee leverages parallel scans and an augmented shuffle mechanism along with dynamic batch size control to maintain quality while processing many agents concurrently, achieving up to 17x speedup over previous methods with comparable or better accuracy.},
-  arxiv={2604.04247}
-}
-
-@inproceedings{he2026frontiersmith,
-  display_venue={NeurIPS 2026},
-  summary={A system that synthesizes open-ended coding problems, test cases, and verifiers for training and evaluating language models.},
-  abbr={NeurIPS'26},
-  title={FrontierSmith: Synthesizing Open-Ended Coding Problems at Scale},
-  author={He*, Runyuan and Mang*, Qiuyang and Zhou, Shang and Liu, Kaiyuan and Li, Hanchen and Mao, Huanzhi and Zhang, Qizheng and Li, Zerui and Peng, Bo and Cheng, Lufeng and Fu, Tianfu and Wang, Yichuan and Chai, Wenhao and Shang, Jingbo and Dimakis, Alex and Gonzalez, Joseph E and Cheung, Alvin},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2026},
-  selected={true},
-  preview={frontiersmith.png},
-  bibtex_show={true},
-  award={Accepted as a Spotlight at NeurIPS 2026 (0.95%).},
-  award_name={Spotlight (0.95%)},
-  annotation={* Equal contribution},
-  abstract={Open-ended coding remains a weak spot for LLMs, largely because open-ended training problems are scarce. FrontierSmith is an automated system that synthesizes such problems by evolving competitive programming tasks through modifying goals, restricting outputs, and generalizing inputs. The system employs a quantitative idea divergence metric to select problems that elicit genuinely diverse approaches, and generates corresponding test cases and verifiers. Models trained on FrontierSmith data show significant improvements on FrontierCS and ALE-bench benchmarks.},
-  arxiv={2605.14445}
 }
 
 @article{fang2026playing,
